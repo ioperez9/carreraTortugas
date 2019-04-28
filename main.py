@@ -42,8 +42,7 @@ class Circuito():
                 tortuga.fd(avance) #le decimos a la tortuga que avance lo que haya resultado de random
                 if tortuga.position()[0] >= self.__finishline: #tortuga.position() nos da la posicion en coordenadas (x,y) ponemos [0] para indicar la coordenada x
                     hayGanador = True
-                    print("La tortuga de color {} ha ganado".format(tortuga.color()[0]))
-        
+                    print("La tortuga de color {} ha ganado".format(tortuga.color()[0]))#color lleva parentesis porque es una funcion y los corchetes indican la posicion 0
             
             
         
